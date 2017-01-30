@@ -82,13 +82,12 @@ $ git clone \
 **Écrire le code source** de son diaporama :
 
 ~~~~~~~ { .bash }
-$ cd atelier-diaporama
-$ vim atelierTheme.md
+$ cd atelier-diaporama && vim atelierTheme.md
 ~~~~~~~
 
 La chaîne « *Theme* » est à remplacée par le thème de l'atelier.
 On obtient ainsi un nom tel que « *atelierGpg* » ou « *atelierTmux* ».
-
+Il en est de même dans le fichier Makefile.
 
 **Générer son diaporama** :
 
@@ -124,15 +123,9 @@ public static void main(String... args) {
 }
 ~~~~~~~
 
+Un grand nombre de langages sont pris en charge,
+consultez la documentation pour les détails.
 
-La **numérotation du code source** :
-
-~~~~~~~ { .c .numberLines startFrom="5" }
-int main(int argc, char *argv[]) {
-  printf("Hello world!\n");
-  return 0;
-}
-~~~~~~~
 
 
 ## Les listes
@@ -142,7 +135,7 @@ Les **énumérations** :
 - pré-diagnostique;
     - observation,
     - prélévement;
--diagnostique.
+- diagnostique.
 
 
 Les **listes numérotées** :
@@ -284,8 +277,8 @@ atelier-theme
 $ tar cvzf atelier-theme.tar.gz atelier-theme
 ~~~~~~~
 
-Le diaporama pourra ainsi être envoyé 
-afin d'être préparer en vue de l'atelier CLI.
+Le diaporama pourra ainsi être envoyé à l'organisateur 
+afin d'être diffuser en vue de l'atelier CLI.
 
 
 
