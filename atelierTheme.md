@@ -11,7 +11,7 @@ Texte.
 
 ## Les remerciements et la licence
 
-\includegraphics[width=48px]{images/imgCc-by-88x31.png}
+\includegraphics[width=48px]{images/imgCcBy-88x31.png}
 
 
 <!-- Sources -->
